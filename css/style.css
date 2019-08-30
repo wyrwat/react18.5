@@ -1,47 +1,56 @@
-body {
-  display: flex;
-  justify-content: center;
+* {
+  box-sizing: border-box;
 }
 
-body .app {
+body {
+  margin: 0 auto;
+  width: 1403px;
+  height: 742px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.app {
+  margin-top: 25px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-body .app .contactForm {
+.app .contactForm {
+  display: flex;
+  justify-content: center;
   margin-bottom: 20px;
 }
 
-body .app .contactForm input {
+.app .contactForm input {
   border-radius: 5px;
   padding: 5px;
 }
 
-body .app .contactForm button {
+.app .contactForm button {
   border-radius: 5px;
   margin-left: 10px;
   padding: 5px;
   background-color: #4CAF50;
 }
 
-body .app .contactsList {
-  margin: 0 auto;
+.app .contactsList {
+  list-style-type: none;
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
-body .app .contactsList .contactItem {
+.app .contactsList .contactItem {
   display: flex;
-  margin-top: 10px;
-  margin-bottom: 20px;
+  justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
-body .app .contactsList .contactItem img {
+.app .contactsList .contactItem img {
   width: 108px;
-  height: 108px;
+  height: 75px;
 }
 
 /*# sourceMappingURL=style.css.map */
