@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+
+    .app {
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .contactForm {
+            margin-bottom: 20px;
+            input {
+                border-radius: 5px;
+                padding: 5px;
+
+            }
+            button {
+                border-radius: 5px;
+                margin-left: 10px;
+                padding: 5px;
+                background-color: #4CAF50;
+            }
+        }
+
+        .contactsList {
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .contactItem {
+                display: flex;
+                //justify-content: space-between;
+                //flex-wrap: wrap;
+                margin: {
+                    top: 10px;
+                    bottom: 20px;
+                }
+                align-items: center;
+
+                img {
+                    width: 108px;
+                    height: 108px;
+                }
+            }
+        }
+    }
+}

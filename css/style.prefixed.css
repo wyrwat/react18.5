@@ -1,12 +1,17 @@
 body {
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -ms-flex-pack: center;
+      justify-content: center;
 }
 
 body .app {
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
 }
 
 body .app .contactForm {
@@ -27,21 +32,25 @@ body .app .contactForm button {
 
 body .app .contactsList {
   margin: 0 auto;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
 }
 
 body .app .contactsList .contactItem {
+  display: -ms-flexbox;
   display: flex;
   margin-top: 10px;
   margin-bottom: 20px;
-  align-items: center;
+  -ms-flex-align: center;
+      align-items: center;
 }
 
 body .app .contactsList .contactItem img {
   width: 108px;
   height: 108px;
 }
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.prefixed.css.map */
