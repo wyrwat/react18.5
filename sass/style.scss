@@ -37,10 +37,10 @@ body {
             list-style-type: none;
             display: flex;
             flex-direction: column;
-            //justify-content: center;
-           
+            
             .contactItem {
                 display: flex;
+                //flex-grow: 1;
                 justify-content: center;
                 align-items: center;
                 flex-wrap: wrap;
