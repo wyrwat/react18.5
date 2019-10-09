@@ -41,18 +41,18 @@ body {
 }
 
 .app .contactsList {
-  list-style-type: none;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
       flex-direction: column;
+  -ms-flex-align: start;
+      align-items: flex-start;
+  margin: 0 auto;
 }
 
 .app .contactsList .contactItem {
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: center;
-      justify-content: center;
   -ms-flex-align: center;
       align-items: center;
   -ms-flex-wrap: wrap;
